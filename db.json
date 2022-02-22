@@ -1,11 +1,10 @@
 {
-    "AllData": 
-    {
+    "AllData": {
         "FNavbardata": [
             {
                 "id": 0,
                 "mainclassname": "ele2",
-                "imagesrc": "/AutoWash/static/media/clock.e5a119e8.png",
+                "imagesrc": "clock",
                 "headercontent": "Opening Hours",
                 "spancontent": "Mon - Fri, 8:00 - 9:00",
                 "altimage": "clockimage"
@@ -13,7 +12,7 @@
             {
                 "id": 1,
                 "mainclassname": "ele3",
-                "imagesrc": "/AutoWash/static/media/phone.abda9c4c.png",
+                "imagesrc": "phone-alt",
                 "headercontent": "Call Us ",
                 "spancontent": " +966-50-6293772 ",
                 "altimage": "callimage"
@@ -21,7 +20,7 @@
             {
                 "id": 2,
                 "mainclassname": "ele4",
-                "imagesrc": "/AutoWash/static/media/mail.9dbf5259.png",
+                "imagesrc": "envelope-open",
                 "headercontent": "Email Us",
                 "spancontent": " info@autowash.com ",
                 "altimage": "emailimage"
@@ -619,7 +618,8 @@
             {
                 "id": 2,
                 "to": "/AutoWash",
-                "srcimage": "/blog-3.jpg",                "header": "Check Car Motor ",
+                "srcimage": "/blog-3.jpg",
+                "header": "Check Car Motor ",
                 "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
                 "commentNum": "2",
                 "owner": "Ahmed",
@@ -628,7 +628,8 @@
             {
                 "id": 3,
                 "to": "/AutoWash",
-                "srcimage": "/blog-1.jpg",                "header": "Check Car Motor ",
+                "srcimage": "/blog-1.jpg",
+                "header": "Check Car Motor ",
                 "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
                 "commentNum": "2",
                 "owner": "Ahmed",
@@ -637,7 +638,8 @@
             {
                 "id": 4,
                 "to": "/AutoWash",
-                "srcimage": "/blog-2.jpg",                "header": "Check Car Motor ",
+                "srcimage": "/blog-2.jpg",
+                "header": "Check Car Motor ",
                 "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
                 "commentNum": "2",
                 "owner": "Ahmed",
@@ -646,7 +648,8 @@
             {
                 "id": 5,
                 "to": "/AutoWash",
-                "srcimage": "/blog-3.jpg",                "header": "Check Car Motor ",
+                "srcimage": "/blog-3.jpg",
+                "header": "Check Car Motor ",
                 "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
                 "commentNum": "2",
                 "owner": "Ahmed",
