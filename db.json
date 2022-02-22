@@ -827,5 +827,166 @@
                 "details": " AutoWash@info.com "
             }
         ]
-    }
+    },
+    "carWashRequests": [
+        
+    ],
+    "newsletterRequests": [
+        {
+            "id": 1,
+            "data": {
+                "NewsFullname": "wwww",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "NewsFullname": "wwww",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        },
+        {
+            "id": 3,
+            "data": {
+                "NewsFullname": "safdf",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        },
+        {
+            "id": 4,
+            "data": {
+                "NewsFullname": "asdfsdf",
+                "NewsEmail": "wwww@www.com"
+            }
+        },
+        {
+            "id": 5,
+            "data": {
+                "NewsFullname": "wwww",
+                "NewsEmail": "wwww@www.com"
+            }
+        },
+        {
+            "id": 6,
+            "data": {
+                "NewsFullname": "sdsdfsdfsd",
+                "NewsEmail": "dsfsdfsdf@dsfd.com"
+            }
+        },
+        {
+            "id": 7,
+            "data": {
+                "NewsFullname": "safdf",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        },
+        {
+            "id": 8,
+            "data": {
+                "NewsFullname": "ggjghjg",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        },
+        {
+            "id": 9,
+            "data": {
+                "NewsFullname": "xxx",
+                "NewsEmail": "wwww@www.com"
+            }
+        },
+        {
+            "id": 10,
+            "data": {
+                "NewsFullname": "xxx",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        },
+        {
+            "id": 11,
+            "data": {
+                "NewsFullname": "ggjghjg",
+                "NewsEmail": "cxvcxvcxv@dss.com"
+            }
+        }
+    ],
+    "messagesRequests": [
+        {
+            "id": 1,
+            "data": {
+                "Contactfullname": "tttert",
+                "ContactEmail": "ararar@xdg.fgd",
+                "ContactSubject": "gdfgdfgdf  ddfg",
+                "ContactMessage": "dfgdfgdfgdg"
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "Contactfullname": "sdfsdfsd",
+                "ContactEmail": "ssgfdf@dsfs.com",
+                "ContactSubject": "cxvxcvcxv xcvxcv",
+                "ContactMessage": "sdfsdfsd sff sdf fs fs sf "
+            }
+        },
+        {
+            "id": 3,
+            "data": {
+                "Contactfullname": "trtryrty",
+                "ContactEmail": "ryrtyrQ@sgf.cim",
+                "ContactSubject": "gdfg  dgdg d g",
+                "ContactMessage": "dgdgskdgfkjs yfgsfi "
+            }
+        },
+        {
+            "id": 4,
+            "data": {
+                "Contactfullname": "xcvxcvxcv",
+                "ContactEmail": "aradfafjd@cvv.cld",
+                "ContactSubject": "vdf fsfg skdjbf",
+                "ContactMessage": "zvxcvxcvxcvc"
+            }
+        },
+        {
+            "id": 5,
+            "data": {
+                "Contactfullname": "arafaat",
+                "ContactEmail": "younes@ffkjg.com",
+                "ContactSubject": "website come on ",
+                "ContactMessage": "dsfksdfjkshdfkf fsdfjvdfsdfsdf"
+            }
+        }
+    ],
+    "RegisterData": [
+        {
+            "id": 1,
+            "data": {
+                "RegFName": "Arafat",
+                "RegLName": "younes",
+                "RegEmail": "arafat1994@outlook.sa",
+                "RegPassword": "19941994Aa@",
+                "RegConfirmPass": "19941994Aa@",
+                "RegPhoneNumber": "0506293772",
+                "RegBirthday": "2022-02-22",
+                "RegNationality": "Egyption",
+                "RegAdress": "Saudi",
+                "RegCity": "Riyadh "
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "RegFName": "Arafat",
+                "RegLName": "younes",
+                "RegEmail": "arafat@outlook.sa",
+                "RegPassword": "19941994Aa@",
+                "RegConfirmPass": "19941994Aa@",
+                "RegPhoneNumber": "0506293772",
+                "RegBirthday": "2022-02-22",
+                "RegNationality": "Egyption",
+                "RegAdress": "Saudi",
+                "RegCity": "Riyadh "
+            }
+        }
+    ]
 }
