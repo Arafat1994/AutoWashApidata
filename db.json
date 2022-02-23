@@ -1,876 +1,836 @@
 {
-    "AllData": [
-        {
-            "id":0 , 
-            "FNavbardata": [
-                {
-                    "id": 0,
-                    "mainclassname": "ele2",
-                    "imagesrc": "clock",
-                    "headercontent": "Opening Hours",
-                    "spancontent": "Mon - Fri, 8:00 - 9:00",
-                    "altimage": "clockimage"
-                },
-                {
-                    "id": 1,
-                    "mainclassname": "ele3",
-                    "imagesrc": "phone-alt",
-                    "headercontent": "Call Us ",
-                    "spancontent": " +966-50-6293772 ",
-                    "altimage": "callimage"
-                },
-                {
-                    "id": 2,
-                    "mainclassname": "ele4",
-                    "imagesrc": "envelope-open",
-                    "headercontent": "Email Us",
-                    "spancontent": " info@autowash.com ",
-                    "altimage": "emailimage"
-                }
-            ]
-        },
-        {
-            "id":1 , 
-            "MainNavbardata": [
-                {
-                    "id": 0,
-                    "to": "/AutoWash",
-                    "linkclass": "menunavbarlink activelink",
-                    "content": "Home",
-                    "type": "Home",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "",
-                    "iconName": "",
-                    "iconView": false,
-                    "DropdownView": false,
-                    "DropdownmenuElement": []
-                },
-                {
-                    "id": 1,
-                    "to": "/AboutUs ",
-                    "linkclass": "menunavbarlink",
-                    "content": "About",
-                    "type": "About",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "",
-                    "iconName": "",
-                    "iconView": false,
-                    "DropdownView": false,
-                    "DropdownmenuElement": []
-                },
-                {
-                    "id": 2,
-                    "to": "/OurService",
-                    "linkclass": "menunavbarlink",
-                    "content": "Services",
-                    "type": "Services",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "",
-                    "iconName": "",
-                    "iconView": true,
-                    "DropdownView": false,
-                    "DropdownmenuElement": [
-                        {
-                            "id": 0,
-                            "content": " Car Washing ",
-                            "class": "DropDownlink",
-                            "path": "/BlogGrid"
-                        },
-                        {
-                            "id": 1,
-                            "content": " Chaning Oil ",
-                            "class": "DropDownlink",
-                            "path": "/DetailPage"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "to": "/OurPrices",
-                    "linkclass": "menunavbarlink",
-                    "content": "Prices",
-                    "type": "Prices",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "",
-                    "iconName": "",
-                    "iconView": false,
-                    "DropdownView": false,
-                    "DropdownmenuElement": []
-                },
-                {
-                    "id": 4,
-                    "to": "/WashingPoints",
-                    "linkclass": "menunavbarlink",
-                    "content": "Washing Point",
-                    "type": "Washing Point",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "",
-                    "iconName": "",
-                    "iconView": true,
-                    "DropdownView": false,
-                    "DropdownmenuElement": [
-                        {
-                            "id": 0,
-                            "content": "yarmook distinct",
-                            "class": "DropDownlink",
-                            "path": "/"
-                        },
-                        {
-                            "id": 1,
-                            "content": "Mounsia distinct",
-                            "class": "DropDownlink",
-                            "path": "/"
-                        },
-                        {
-                            "id": 2,
-                            "content": "Kalij distinct",
-                            "class": "DropDownlink",
-                            "path": "/"
-                        },
-                        {
-                            "id": 3,
-                            "content": "Remal distinct",
-                            "class": "DropDownlink",
-                            "path": "/"
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "to": "/Pages",
-                    "linkclass": "menunavbarlink",
-                    "content": "Pages",
-                    "type": "Pages",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "icon",
-                    "iconName": "faChevronDown",
-                    "iconView": true,
-                    "DropdownView": false,
-                    "DropdownmenuElement": [
-                        {
-                            "id": 0,
-                            "content": "Blog Grid",
-                            "class": "DropDownlink",
-                            "path": "/BlogGrid"
-                        },
-                        {
-                            "id": 1,
-                            "content": "Detail Page",
-                            "class": "DropDownlink",
-                            "path": "/DetailPage"
-                        },
-                        {
-                            "id": 2,
-                            "content": "Team Member",
-                            "class": "DropDownlink",
-                            "path": "/TeamMember"
-                        },
-                        {
-                            "id": 3,
-                            "content": "Schdule Booking",
-                            "class": "DropDownlink",
-                            "path": "/SchduleBooking"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "to": "/Contact",
-                    "linkclass": "menunavbarlink",
-                    "content": "Contact",
-                    "type": "Contact",
-                    "linkFunction": "viewfunction",
-                    "iconFunction": "viewfunction",
-                    "iconClass": "",
-                    "iconName": "",
-                    "iconView": false,
-                    "DropdownView": false,
-                    "DropdownmenuElement": []
-                }
-            ]
-        },
-        {
-            "id":2 , 
-            "CarouselData": [
-                {
-                    "id": 0,
-                    "imgsrc": "/carousel1.jpg",
-                    "header": "Washing and detailing",
-                    "mainheader": "Keep Your Car Newer",
-                    "firstdetails": "we offer cars washing for all Cars to make ",
-                    "seconddtails": " it like new one  "
-                },
-                {
-                    "id": 2,
-                    "imgsrc": "/carousel2.jpg",
-                    "header": " Car Motor Maitenence",
-                    "mainheader": "Keep Your car Fit ",
-                    "firstdetails": " We make all the necessary motor maitaience for ",
-                    "seconddtails": " all king of cars and motors  "
-                },
-                {
-                    "id": 3,
-                    "imgsrc": "/carousel3.jpg",
-                    "header": "Changing Car Oil",
-                    "mainheader": "Change Your Oil with Gurantee ",
-                    "firstdetails": " we have good prices ang good kind of oils ",
-                    "seconddtails": " to make your motor perfect"
-                }
-            ]
-        },
-        {
-            "id":3,
-            "AboutBreifComponent": [
-                {
-                    "id": 0,
-                    "imageSrc": "/about-1.jpg",
-                    "title": " AboutUs",
-                    "header": "Car Washing And Detailing",
-                    "details": "Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum",
-                    "Aboutservice": [
-                        {
-                            "id": 0,
-                            "servicename": "Seats washing"
-                        },
-                        {
-                            "id": 1,
-                            "servicename": "Vacuum cleaning"
-                        },
-                        {
-                            "id": 2,
-                            "servicename": "Interior wet cleaning"
-                        },
-                        {
-                            "id": 3,
-                            "servicename": "Window wiping"
-                        }
-                    ],
-                    "buttonchild": "learn more"
-                }
-            ]
-        },
-        {
-            "id":4,
-            "WhatwedoComponent": [
-                {
-                    "id": 0,
-                    "imgsrc": "/carwash.png",
-                    "header": "Extrior Washing",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 1,
-                    "imgsrc": "/steering-wheel.png",
-                    "header": "Interior Washing ",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 2,
-                    "imgsrc": "/vacuum.png",
-                    "header": "Vaccume Cleaning ",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 3,
-                    "imgsrc": "/car-seat.png",
-                    "header": "Seat Washing",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 4,
-                    "imgsrc": "/car-repair.png",
-                    "header": "Car Maintaience ",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 5,
-                    "imgsrc": "/oil-change.png",
-                    "header": "Oil Changing ",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 6,
-                    "imgsrc": "/wet-cleaning.png",
-                    "header": "Wet Cleaning",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                },
-                {
-                    "id": 7,
-                    "imgsrc": "/window-cleaning.png",
-                    "header": "Window Wiping",
-                    "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
-                }
-            ]
-        },
-        {
-            "id":5 ,
-            "CustomerNumbers": [
-                {
-                    "id": 0,
-                    "icon": "map-marker-alt",
-                    "number": 500,
-                    "details": "Service Point "
-                },
-                {
-                    "id": 1,
-                    "icon": "user",
-                    "number": 350,
-                    "details": "Enginers and Workers"
-                },
-                {
-                    "id": 2,
-                    "icon": "users",
-                    "number": 1500,
-                    "details": "Happy Client "
-                },
-                {
-                    "id": 3,
-                    "icon": "check",
-                    "number": 5000,
-                    "details": "Project completed"
-                }
-            ]
-        },
-        {
-            "id":6,
-            "PlansData": [
-                {
-                    "id": 0,
-                    "title": "Basic Cleaning",
-                    "price": 25.99,
-                    "service": [
-                        {
-                            "id": 0,
-                            "servicename": "Seats Washing",
-                            "availability": true
-                        },
-                        {
-                            "id": 1,
-                            "servicename": "Vacuum Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 2,
-                            "servicename": "Exterior Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 3,
-                            "servicename": "Interior Wet Cleaning",
-                            "availability": false
-                        },
-                        {
-                            "id": 4,
-                            "servicename": "Window Wiping",
-                            "availability": false
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "title": "PREMIUM CLEANING",
-                    "price": 35.99,
-                    "service": [
-                        {
-                            "id": 0,
-                            "servicename": "Seats Washing",
-                            "availability": true
-                        },
-                        {
-                            "id": 1,
-                            "servicename": "Vacuum Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 2,
-                            "servicename": "Exterior Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 3,
-                            "servicename": "Interior Wet Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 4,
-                            "servicename": "Window Wiping",
-                            "availability": false
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "COMPLEX CLEANING",
-                    "price": 49.99,
-                    "service": [
-                        {
-                            "id": 0,
-                            "servicename": "Seats Washing",
-                            "availability": true
-                        },
-                        {
-                            "id": 1,
-                            "servicename": "Vacuum Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 2,
-                            "servicename": "Exterior Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 3,
-                            "servicename": "Interior Wet Cleaning",
-                            "availability": true
-                        },
-                        {
-                            "id": 4,
-                            "servicename": "Window Wiping",
-                            "availability": true
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id":7,
-            "WashingPointData": [
-                {
-                    "id": 0,
-                    "title": "Car Washing Point",
-                    "address": " 123 Street , New York , USA ",
-                    "phonenumber": " +012-345-6789"
-                },
-                {
-                    "id": 1,
-                    "title": "Car Washing Point",
-                    "address": " 123 Street , New York , USA ",
-                    "phonenumber": " +012-345-6789"
-                },
-                {
-                    "id": 2,
-                    "title": "Car Washing Point",
-                    "address": " 123 Street , New York , USA ",
-                    "phonenumber": " +012-345-6789"
-                },
-                {
-                    "id": 3,
-                    "title": "Car Washing Point",
-                    "address": " 123 Street , New York , USA ",
-                    "phonenumber": " +012-345-6789"
-                }
-            ]
-        },
-        {
-            "id":8 ,
-            "workersData": [
-                {
-                    "id": 0,
-                    "srcimage": "/team-1.jpg",
-                    "name": "Donald Herfy",
-                    "job": "Engineer",
-                    "socialmedialinks": [
-                        {
-                            "id": 0,
-                            "icon": "twitter",
-                            "link": "https://www.twitter.com"
-                        },
-                        {
-                            "id": 1,
-                            "icon": "facebook",
-                            "link": "https://www.facebook.com"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "linkedin",
-                            "link": "https://www.linkedIn.com"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "instagram",
-                            "link": "https://www.instagram.com"
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "srcimage": "/team-2.jpg",
-                    "name": "Jonhoson Gorge",
-                    "job": "Worker",
-                    "socialmedialinks": [
-                        {
-                            "id": 0,
-                            "icon": "twitter",
-                            "link": "https://www.twitter.com"
-                        },
-                        {
-                            "id": 1,
-                            "icon": "facebook",
-                            "link": "https://www.facebook.com"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "linkedin",
-                            "link": "https://www.linkedIn.com"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "instagram",
-                            "link": "https://www.instagram.com"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "srcimage": "/team-3.jpg",
-                    "name": "Eden Hazard",
-                    "job": "Worker",
-                    "socialmedialinks": [
-                        {
-                            "id": 0,
-                            "icon": "twitter",
-                            "link": "https://www.twitter.com"
-                        },
-                        {
-                            "id": 1,
-                            "icon": "facebook",
-                            "link": "https://www.facebook.com"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "linkedin",
-                            "link": "https://www.linkedIn.com"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "instagram",
-                            "link": "https://www.instagram.com"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "srcimage": "/team-4.jpg",
-                    "name": "Jose Moriho ",
-                    "job": "Engineer",
-                    "socialmedialinks": [
-                        {
-                            "id": 0,
-                            "icon": "twitter",
-                            "link": "https://www.twitter.com"
-                        },
-                        {
-                            "id": 1,
-                            "icon": "facebook",
-                            "link": "https://www.facebook.com"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "linkedin",
-                            "link": "https://www.linkedIn.com"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "instagram",
-                            "link": "https://www.instagram.com"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id":9,
-            "clientCarouseldata": [
-                {
-                    "id": 0,
-                    "srcImage": "/team-1.jpg",
-                    "clientName": "Carlo Anslloti",
-                    "clienTitle": "Teacher",
-                    "clientComment": "Good group Worker and organized "
-                },
-                {
-                    "id": 1,
-                    "srcImage": "/team-2.jpg",
-                    "clientName": "Tom Harry",
-                    "clienTitle": "Landaryman",
-                    "clientComment": "Good serrvice "
-                },
-                {
-                    "id": 2,
-                    "srcImage": "/team-3.jpg",
-                    "clientName": "Hardy Cousman",
-                    "clienTitle": "Barber",
-                    "clientComment": "People are kind and doing the proper things"
-                },
-                {
-                    "id": 3,
-                    "srcImage": "/team-4.jpg",
-                    "clientName": "John Intenli",
-                    "clienTitle": "Driver",
-                    "clientComment": "Professinals"
-                },
-                {
-                    "id": 4,
-                    "srcImage": "/team-1.jpg",
-                    "clientName": "kamnt toreet",
-                    "clienTitle": "Programer",
-                    "clientComment": "The materials they used are top "
-                }
-            ]
-        },
-        {
-            "id":10, 
-            "ArticlesData": [
-                {
-                    "id": 0,
-                    "to": "/AutoWash",
-                    "srcimage": "/blog-1.jpg",
-                    "header": "how to know the good oil ",
-                    "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
-                    "commentNum": "12",
-                    "owner": "Admin",
-                    "field": "Oil quality "
-                },
-                {
-                    "id": 1,
-                    "to": "/AutoWash",
-                    "srcimage": "/blog-2.jpg",
-                    "header": "The best way to wash your car ",
-                    "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
-                    "commentNum": "9",
-                    "owner": "Admin",
-                    "field": "Car wash "
-                },
-                {
-                    "id": 2,
-                    "to": "/AutoWash",
-                    "srcimage": "/blog-3.jpg",
-                    "header": "Check Car Motor ",
-                    "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
-                    "commentNum": "2",
-                    "owner": "Ahmed",
-                    "field": "Check motor"
-                },
-                {
-                    "id": 3,
-                    "to": "/AutoWash",
-                    "srcimage": "/blog-1.jpg",
-                    "header": "Check Car Motor ",
-                    "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
-                    "commentNum": "2",
-                    "owner": "Ahmed",
-                    "field": "Check motor"
-                },
-                {
-                    "id": 4,
-                    "to": "/AutoWash",
-                    "srcimage": "/blog-2.jpg",
-                    "header": "Check Car Motor ",
-                    "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
-                    "commentNum": "2",
-                    "owner": "Ahmed",
-                    "field": "Check motor"
-                },
-                {
-                    "id": 5,
-                    "to": "/AutoWash",
-                    "srcimage": "/blog-3.jpg",
-                    "header": "Check Car Motor ",
-                    "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
-                    "commentNum": "2",
-                    "owner": "Ahmed",
-                    "field": "Check motor"
-                }
-            ]
-        },
-        {
-            "id":11 , 
-            "SocialmediaData": [
-                {
-                    "id": 0,
-                    "iconlink": "https://www.facebook.com",
-                    "icon": "facebook"
-                },
-                {
-                    "id": 1,
-                    "iconlink": "https://www.twitter.com",
-                    "icon": "twitter"
-                },
-                {
-                    "id": 2,
-                    "iconlink": "https://www.youtube.com",
-                    "icon": "youtube"
-                },
-                {
-                    "id": 3,
-                    "iconlink": "https://www.linkedin.com",
-                    "icon": "linkedin"
-                },
-                {
-                    "id": 4,
-                    "iconlink": "https://www.instagram.com",
-                    "icon": "instagram"
-                }
-            ]
-        },
-        {
-            "id":12, 
-            "FooterData": [
-                {
-                    "id": 0,
-                    "title": "Get In Touch",
-                    "elements": [
-                        {
-                            "id": 0,
-                            "icon": "map-marked-alt",
-                            "link": "",
-                            "iconClassName": " icon ",
-                            "spanClassName": "",
-                            "spantext": " 123 Street, New York, USA "
-                        },
-                        {
-                            "id": 1,
-                            "icon": "phone-alt",
-                            "link": "",
-                            "iconClassName": " icon ",
-                            "spanClassName": "",
-                            "spantext": " +012 153 35416 "
-                        },
-                        {
-                            "id": 2,
-                            "icon": "envelope-open",
-                            "link": "",
-                            "iconClassName": "icon ",
-                            "spanClassName": "",
-                            "spantext": "AutoWash@info.com"
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "title": "Popular Links",
-                    "elements": [
-                        {
-                            "id": 0,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": "icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " About Us "
-                        },
-                        {
-                            "id": 1,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": " icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Contact us "
-                        },
-                        {
-                            "id": 2,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": "icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Our Service "
-                        },
-                        {
-                            "id": 3,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": " icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Service Points "
-                        },
-                        {
-                            "id": 4,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": " icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Pricing Plan "
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "Popular Links",
-                    "elements": [
-                        {
-                            "id": 0,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": "icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Useful Links  "
-                        },
-                        {
-                            "id": 1,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": " icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Terms Of Use "
-                        },
-                        {
-                            "id": 2,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": "icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Privacy Policy "
-                        },
-                        {
-                            "id": 3,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": " icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " Cookies "
-                        },
-                        {
-                            "id": 4,
-                            "icon": "chevron-circle-right",
-                            "link": "",
-                            "iconClassName": " icon iconlink",
-                            "spanClassName": "linkspan",
-                            "spantext": " FQAS "
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id":13, 
-            "ContactData": [
-                {
-                    "id": 0,
-                    "icon": "clock",
-                    "header": "Opening Hours",
-                    "details": " Mon - Fri, 8:00 - 9:00 "
-                },
-                {
-                    "id": 1,
-                    "icon": "phone-alt",
-                    "header": " Call Us ",
-                    "details": " +012 452 426"
-                },
-                {
-                    "id": 2,
-                    "icon": "envelope-open",
-                    "header": "Email Us ",
-                    "details": " AutoWash@info.com "
-                }
-            ]
-        }
+    "AllData": {
+        "FNavbardata": [
+            {
+                "id": 0,
+                "mainclassname": "ele2",
+                "imagesrc": "clock",
+                "headercontent": "Opening Hours",
+                "spancontent": "Mon - Fri, 8:00 - 9:00",
+                "altimage": "clockimage"
+            },
+            {
+                "id": 1,
+                "mainclassname": "ele3",
+                "imagesrc": "phone-alt",
+                "headercontent": "Call Us ",
+                "spancontent": " +966-50-6293772 ",
+                "altimage": "callimage"
+            },
+            {
+                "id": 2,
+                "mainclassname": "ele4",
+                "imagesrc": "envelope-open",
+                "headercontent": "Email Us",
+                "spancontent": " info@autowash.com ",
+                "altimage": "emailimage"
+            }
+        ],
+        "MainNavbardata": [
+            {
+                "id": 0,
+                "to": "/AutoWash",
+                "linkclass": "menunavbarlink activelink",
+                "content": "Home",
+                "type": "Home",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "",
+                "iconName": "",
+                "iconView": false,
+                "DropdownView": false,
+                "DropdownmenuElement": []
+            },
+            {
+                "id": 1,
+                "to": "/AboutUs ",
+                "linkclass": "menunavbarlink",
+                "content": "About",
+                "type": "About",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "",
+                "iconName": "",
+                "iconView": false,
+                "DropdownView": false,
+                "DropdownmenuElement": []
+            },
+            {
+                "id": 2,
+                "to": "/OurService",
+                "linkclass": "menunavbarlink",
+                "content": "Services",
+                "type": "Services",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "",
+                "iconName": "",
+                "iconView": true,
+                "DropdownView": false,
+                "DropdownmenuElement": [
+                    {
+                        "id": 0,
+                        "content": " Car Washing ",
+                        "class": "DropDownlink",
+                        "path": "/BlogGrid"
+                    },
+                    {
+                        "id": 1,
+                        "content": " Chaning Oil ",
+                        "class": "DropDownlink",
+                        "path": "/DetailPage"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "to": "/OurPrices",
+                "linkclass": "menunavbarlink",
+                "content": "Prices",
+                "type": "Prices",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "",
+                "iconName": "",
+                "iconView": false,
+                "DropdownView": false,
+                "DropdownmenuElement": []
+            },
+            {
+                "id": 4,
+                "to": "/WashingPoints",
+                "linkclass": "menunavbarlink",
+                "content": "Washing Point",
+                "type": "Washing Point",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "",
+                "iconName": "",
+                "iconView": true,
+                "DropdownView": false,
+                "DropdownmenuElement": [
+                    {
+                        "id": 0,
+                        "content": "yarmook distinct",
+                        "class": "DropDownlink",
+                        "path": "/"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Mounsia distinct",
+                        "class": "DropDownlink",
+                        "path": "/"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Kalij distinct",
+                        "class": "DropDownlink",
+                        "path": "/"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Remal distinct",
+                        "class": "DropDownlink",
+                        "path": "/"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "to": "/Pages",
+                "linkclass": "menunavbarlink",
+                "content": "Pages",
+                "type": "Pages",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "icon",
+                "iconName": "faChevronDown",
+                "iconView": true,
+                "DropdownView": false,
+                "DropdownmenuElement": [
+                    {
+                        "id": 0,
+                        "content": "Blog Grid",
+                        "class": "DropDownlink",
+                        "path": "/BlogGrid"
+                    },
+                    {
+                        "id": 1,
+                        "content": "Detail Page",
+                        "class": "DropDownlink",
+                        "path": "/DetailPage"
+                    },
+                    {
+                        "id": 2,
+                        "content": "Team Member",
+                        "class": "DropDownlink",
+                        "path": "/TeamMember"
+                    },
+                    {
+                        "id": 3,
+                        "content": "Schdule Booking",
+                        "class": "DropDownlink",
+                        "path": "/SchduleBooking"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "to": "/Contact",
+                "linkclass": "menunavbarlink",
+                "content": "Contact",
+                "type": "Contact",
+                "linkFunction": "viewfunction",
+                "iconFunction": "viewfunction",
+                "iconClass": "",
+                "iconName": "",
+                "iconView": false,
+                "DropdownView": false,
+                "DropdownmenuElement": []
+            }
+        ],
+        "CarouselData": [
+            {
+                "id": 0,
+                "imgsrc": "/carousel1.jpg",
+                "header": "Washing and detailing",
+                "mainheader": "Keep Your Car Newer",
+                "firstdetails": "we offer cars washing for all Cars to make ",
+                "seconddtails": " it like new one  "
+            },
+            {
+                "id": 2,
+                "imgsrc": "/carousel2.jpg",
+                "header": " Car Motor Maitenence",
+                "mainheader": "Keep Your car Fit ",
+                "firstdetails": " We make all the necessary motor maitaience for ",
+                "seconddtails": " all king of cars and motors  "
+            },
+            {
+                "id": 3,
+                "imgsrc": "/carousel3.jpg",
+                "header": "Changing Car Oil",
+                "mainheader": "Change Your Oil with Gurantee ",
+                "firstdetails": " we have good prices ang good kind of oils ",
+                "seconddtails": " to make your motor perfect"
+            }
+        ],
+        "AboutBreifComponent": [
+            {
+                "id": 0,
+                "imageSrc": "/about-1.jpg",
+                "title": " AboutUs",
+                "header": "Car Washing And Detailing",
+                "details": "Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum",
+                "Aboutservice": [
+                    {
+                        "id": 0,
+                        "servicename": "Seats washing"
+                    },
+                    {
+                        "id": 1,
+                        "servicename": "Vacuum cleaning"
+                    },
+                    {
+                        "id": 2,
+                        "servicename": "Interior wet cleaning"
+                    },
+                    {
+                        "id": 3,
+                        "servicename": "Window wiping"
+                    }
+                ],
+                "buttonchild": "learn more"
+            }
+        ],
+        "WhatwedoComponent": [
+            {
+                "id": 0,
+                "imgsrc": "/carwash.png",
+                "header": "Extrior Washing",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 1,
+                "imgsrc": "/steering-wheel.png",
+                "header": "Interior Washing ",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 2,
+                "imgsrc": "/vacuum.png",
+                "header": "Vaccume Cleaning ",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 3,
+                "imgsrc": "/car-seat.png",
+                "header": "Seat Washing",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 4,
+                "imgsrc": "/car-repair.png",
+                "header": "Car Maintaience ",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 5,
+                "imgsrc": "/oil-change.png",
+                "header": "Oil Changing ",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 6,
+                "imgsrc": "/wet-cleaning.png",
+                "header": "Wet Cleaning",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            },
+            {
+                "id": 7,
+                "imgsrc": "/window-cleaning.png",
+                "header": "Window Wiping",
+                "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
+            }
+        ],
+        "CustomerNumbers": [
+            {
+                "id": 0,
+                "icon": "map-marker-alt",
+                "number": 500,
+                "details": "Service Point "
+            },
+            {
+                "id": 1,
+                "icon": "user",
+                "number": 350,
+                "details": "Enginers and Workers"
+            },
+            {
+                "id": 2,
+                "icon": "users",
+                "number": 1500,
+                "details": "Happy Client "
+            },
+            {
+                "id": 3,
+                "icon": "check",
+                "number": 5000,
+                "details": "Project completed"
+            }
+        ],
+        "PlansData": [
+            {
+                "id": 0,
+                "title": "Basic Cleaning",
+                "price": 25.99,
+                "service": [
+                    {
+                        "id": 0,
+                        "servicename": "Seats Washing",
+                        "availability": true
+                    },
+                    {
+                        "id": 1,
+                        "servicename": "Vacuum Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 2,
+                        "servicename": "Exterior Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 3,
+                        "servicename": "Interior Wet Cleaning",
+                        "availability": false
+                    },
+                    {
+                        "id": 4,
+                        "servicename": "Window Wiping",
+                        "availability": false
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "PREMIUM CLEANING",
+                "price": 35.99,
+                "service": [
+                    {
+                        "id": 0,
+                        "servicename": "Seats Washing",
+                        "availability": true
+                    },
+                    {
+                        "id": 1,
+                        "servicename": "Vacuum Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 2,
+                        "servicename": "Exterior Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 3,
+                        "servicename": "Interior Wet Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 4,
+                        "servicename": "Window Wiping",
+                        "availability": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "COMPLEX CLEANING",
+                "price": 49.99,
+                "service": [
+                    {
+                        "id": 0,
+                        "servicename": "Seats Washing",
+                        "availability": true
+                    },
+                    {
+                        "id": 1,
+                        "servicename": "Vacuum Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 2,
+                        "servicename": "Exterior Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 3,
+                        "servicename": "Interior Wet Cleaning",
+                        "availability": true
+                    },
+                    {
+                        "id": 4,
+                        "servicename": "Window Wiping",
+                        "availability": true
+                    }
+                ]
+            }
+        ],
+        "WashingPointData": [
+            {
+                "id": 0,
+                "title": "Car Washing Point",
+                "address": " 123 Street , New York , USA ",
+                "phonenumber": " +012-345-6789"
+            },
+            {
+                "id": 1,
+                "title": "Car Washing Point",
+                "address": " 123 Street , New York , USA ",
+                "phonenumber": " +012-345-6789"
+            },
+            {
+                "id": 2,
+                "title": "Car Washing Point",
+                "address": " 123 Street , New York , USA ",
+                "phonenumber": " +012-345-6789"
+            },
+            {
+                "id": 3,
+                "title": "Car Washing Point",
+                "address": " 123 Street , New York , USA ",
+                "phonenumber": " +012-345-6789"
+            }
+        ],
+        "workersData": [
+            {
+                "id": 0,
+                "srcimage": "/team-1.jpg",
+                "name": "Donald Herfy",
+                "job": "Engineer",
+                "socialmedialinks": [
+                    {
+                        "id": 0,
+                        "icon": "twitter",
+                        "link": "https://www.twitter.com"
+                    },
+                    {
+                        "id": 1,
+                        "icon": "facebook",
+                        "link": "https://www.facebook.com"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "linkedin",
+                        "link": "https://www.linkedIn.com"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "instagram",
+                        "link": "https://www.instagram.com"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "srcimage": "/team-2.jpg",
+                "name": "Jonhoson Gorge",
+                "job": "Worker",
+                "socialmedialinks": [
+                    {
+                        "id": 0,
+                        "icon": "twitter",
+                        "link": "https://www.twitter.com"
+                    },
+                    {
+                        "id": 1,
+                        "icon": "facebook",
+                        "link": "https://www.facebook.com"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "linkedin",
+                        "link": "https://www.linkedIn.com"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "instagram",
+                        "link": "https://www.instagram.com"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "srcimage": "/team-3.jpg",
+                "name": "Eden Hazard",
+                "job": "Worker",
+                "socialmedialinks": [
+                    {
+                        "id": 0,
+                        "icon": "twitter",
+                        "link": "https://www.twitter.com"
+                    },
+                    {
+                        "id": 1,
+                        "icon": "facebook",
+                        "link": "https://www.facebook.com"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "linkedin",
+                        "link": "https://www.linkedIn.com"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "instagram",
+                        "link": "https://www.instagram.com"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "srcimage": "/team-4.jpg",
+                "name": "Jose Moriho ",
+                "job": "Engineer",
+                "socialmedialinks": [
+                    {
+                        "id": 0,
+                        "icon": "twitter",
+                        "link": "https://www.twitter.com"
+                    },
+                    {
+                        "id": 1,
+                        "icon": "facebook",
+                        "link": "https://www.facebook.com"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "linkedin",
+                        "link": "https://www.linkedIn.com"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "instagram",
+                        "link": "https://www.instagram.com"
+                    }
+                ]
+            }
+        ],
+        "clientCarouseldata": [
+            {
+                "id": 0,
+                "srcImage": "/team-1.jpg",
+                "clientName": "Carlo Anslloti",
+                "clienTitle": "Teacher",
+                "clientComment": "Good group Worker and organized "
+            },
+            {
+                "id": 1,
+                "srcImage": "/team-2.jpg",
+                "clientName": "Tom Harry",
+                "clienTitle": "Landaryman",
+                "clientComment": "Good serrvice "
+            },
+            {
+                "id": 2,
+                "srcImage": "/team-3.jpg",
+                "clientName": "Hardy Cousman",
+                "clienTitle": "Barber",
+                "clientComment": "People are kind and doing the proper things"
+            },
+            {
+                "id": 3,
+                "srcImage": "/team-4.jpg",
+                "clientName": "John Intenli",
+                "clienTitle": "Driver",
+                "clientComment": "Professinals"
+            },
+            {
+                "id": 4,
+                "srcImage": "/team-1.jpg",
+                "clientName": "kamnt toreet",
+                "clienTitle": "Programer",
+                "clientComment": "The materials they used are top "
+            }
+        ],
+        "ArticlesData": [
+            {
+                "id": 0,
+                "to": "/AutoWash",
+                "srcimage": "/blog-1.jpg",
+                "header": "how to know the good oil ",
+                "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
+                "commentNum": "12",
+                "owner": "Admin",
+                "field": "Oil quality "
+            },
+            {
+                "id": 1,
+                "to": "/AutoWash",
+                "srcimage": "/blog-2.jpg",
+                "header": "The best way to wash your car ",
+                "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
+                "commentNum": "9",
+                "owner": "Admin",
+                "field": "Car wash "
+            },
+            {
+                "id": 2,
+                "to": "/AutoWash",
+                "srcimage": "/blog-3.jpg",
+                "header": "Check Car Motor ",
+                "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
+                "commentNum": "2",
+                "owner": "Ahmed",
+                "field": "Check motor"
+            },
+            {
+                "id": 3,
+                "to": "/AutoWash",
+                "srcimage": "/blog-1.jpg",
+                "header": "Check Car Motor ",
+                "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
+                "commentNum": "2",
+                "owner": "Ahmed",
+                "field": "Check motor"
+            },
+            {
+                "id": 4,
+                "to": "/AutoWash",
+                "srcimage": "/blog-2.jpg",
+                "header": "Check Car Motor ",
+                "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
+                "commentNum": "2",
+                "owner": "Ahmed",
+                "field": "Check motor"
+            },
+            {
+                "id": 5,
+                "to": "/AutoWash",
+                "srcimage": "/blog-3.jpg",
+                "header": "Check Car Motor ",
+                "details": "Lorem ipsum dolor sit amet elit. Pellent iaculis blandit lorem, quis convall diam eleife. Nam in arcu sit amet massa ferment quis enim. Nunc augue velit metus congue eget semper",
+                "commentNum": "2",
+                "owner": "Ahmed",
+                "field": "Check motor"
+            }
+        ],
+        "SocialmediaData": [
+            {
+                "id": 0,
+                "iconlink": "https://www.facebook.com",
+                "icon": "facebook"
+            },
+            {
+                "id": 1,
+                "iconlink": "https://www.twitter.com",
+                "icon": "twitter"
+            },
+            {
+                "id": 2,
+                "iconlink": "https://www.youtube.com",
+                "icon": "youtube"
+            },
+            {
+                "id": 3,
+                "iconlink": "https://www.linkedin.com",
+                "icon": "linkedin"
+            },
+            {
+                "id": 4,
+                "iconlink": "https://www.instagram.com",
+                "icon": "instagram"
+            }
+        ],
+        "FooterData": [
+            {
+                "id": 0,
+                "title": "Get In Touch",
+                "elements": [
+                    {
+                        "id": 0,
+                        "icon": "map-marked-alt",
+                        "link": "",
+                        "iconClassName": " icon ",
+                        "spanClassName": "",
+                        "spantext": " 123 Street, New York, USA "
+                    },
+                    {
+                        "id": 1,
+                        "icon": "phone-alt",
+                        "link": "",
+                        "iconClassName": " icon ",
+                        "spanClassName": "",
+                        "spantext": " +012 153 35416 "
+                    },
+                    {
+                        "id": 2,
+                        "icon": "envelope-open",
+                        "link": "",
+                        "iconClassName": "icon ",
+                        "spanClassName": "",
+                        "spantext": "AutoWash@info.com"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Popular Links",
+                "elements": [
+                    {
+                        "id": 0,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": "icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " About Us "
+                    },
+                    {
+                        "id": 1,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": " icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Contact us "
+                    },
+                    {
+                        "id": 2,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": "icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Our Service "
+                    },
+                    {
+                        "id": 3,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": " icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Service Points "
+                    },
+                    {
+                        "id": 4,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": " icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Pricing Plan "
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Popular Links",
+                "elements": [
+                    {
+                        "id": 0,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": "icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Useful Links  "
+                    },
+                    {
+                        "id": 1,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": " icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Terms Of Use "
+                    },
+                    {
+                        "id": 2,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": "icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Privacy Policy "
+                    },
+                    {
+                        "id": 3,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": " icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " Cookies "
+                    },
+                    {
+                        "id": 4,
+                        "icon": "chevron-circle-right",
+                        "link": "",
+                        "iconClassName": " icon iconlink",
+                        "spanClassName": "linkspan",
+                        "spantext": " FQAS "
+                    }
+                ]
+            }
+        ],
+        "ContactData": [
+            {
+                "id": 0,
+                "icon": "clock",
+                "header": "Opening Hours",
+                "details": " Mon - Fri, 8:00 - 9:00 "
+            },
+            {
+                "id": 1,
+                "icon": "phone-alt",
+                "header": " Call Us ",
+                "details": " +012 452 426"
+            },
+            {
+                "id": 2,
+                "icon": "envelope-open",
+                "header": "Email Us ",
+                "details": " AutoWash@info.com "
+            }
+        ]
+    },
+    "carWashRequests": [
+        
     ],
-    "carWashRequests": [],
     "newsletterRequests": [
         {
             "id": 1,
