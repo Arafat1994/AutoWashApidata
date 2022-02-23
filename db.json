@@ -1,6 +1,7 @@
 {
     "AllData": [
         {
+            "id":0 , 
             "FNavbardata": [
                 {
                     "id": 0,
@@ -29,6 +30,7 @@
             ]
         },
         {
+            "id":1 , 
             "MainNavbardata": [
                 {
                     "id": 0,
@@ -194,6 +196,7 @@
             ]
         },
         {
+            "id":2 , 
             "CarouselData": [
                 {
                     "id": 0,
@@ -222,6 +225,7 @@
             ]
         },
         {
+            "id":3,
             "AboutBreifComponent": [
                 {
                     "id": 0,
@@ -252,6 +256,7 @@
             ]
         },
         {
+            "id":4,
             "WhatwedoComponent": [
                 {
                     "id": 0,
@@ -304,6 +309,7 @@
             ]
         },
         {
+            "id":5 ,
             "CustomerNumbers": [
                 {
                     "id": 0,
@@ -332,6 +338,7 @@
             ]
         },
         {
+            "id":6,
             "PlansData": [
                 {
                     "id": 0,
@@ -432,6 +439,7 @@
             ]
         },
         {
+            "id":7,
             "WashingPointData": [
                 {
                     "id": 0,
@@ -460,6 +468,7 @@
             ]
         },
         {
+            "id":8 ,
             "workersData": [
                 {
                     "id": 0,
@@ -576,6 +585,7 @@
             ]
         },
         {
+            "id":9,
             "clientCarouseldata": [
                 {
                     "id": 0,
@@ -615,6 +625,7 @@
             ]
         },
         {
+            "id":10, 
             "ArticlesData": [
                 {
                     "id": 0,
@@ -679,6 +690,7 @@
             ]
         },
         {
+            "id":11 , 
             "SocialmediaData": [
                 {
                     "id": 0,
@@ -708,6 +720,7 @@
             ]
         },
         {
+            "id":12, 
             "FooterData": [
                 {
                     "id": 0,
@@ -834,6 +847,7 @@
             ]
         },
         {
+            "id":13, 
             "ContactData": [
                 {
                     "id": 0,
