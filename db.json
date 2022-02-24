@@ -253,13 +253,13 @@
             {
                 "id": 1,
                 "imgsrc": "/steering-wheel.png",
-                "header": "Interior Washing ",
+                "header": "Interior Washing",
                 "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
             },
             {
                 "id": 2,
                 "imgsrc": "/vacuum.png",
-                "header": "Vaccume Cleaning ",
+                "header": "Vaccume Cleaning",
                 "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
             },
             {
@@ -271,13 +271,13 @@
             {
                 "id": 4,
                 "imgsrc": "/car-repair.png",
-                "header": "Car Maintaience ",
+                "header": "Car Maintaience",
                 "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
             },
             {
                 "id": 5,
                 "imgsrc": "/oil-change.png",
-                "header": "Oil Changing ",
+                "header": "Oil Changing",
                 "somedetail": "Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor"
             },
             {
